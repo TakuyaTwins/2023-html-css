@@ -1,3 +1,20 @@
 body{
+    margin:0;
     background-color:#ff77ff;
+}
+
+header{
+background-color: #333;
+}
+
+.site-title{
+    margin: 0px;
+    padding:16px;
+    color: #fff;
+}
+
+.contents-item{
+    margin:16px ;
+    background-color: #fff;
+    border: 1px solid #ccc; 
 }
