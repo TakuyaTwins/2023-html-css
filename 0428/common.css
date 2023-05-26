@@ -6,6 +6,9 @@ body{
 header{
 background-color: #333;
 }
+.main-title, .description{
+    margin: 16px;
+}
 
 .site-title{
     margin: 0px;
@@ -17,4 +20,20 @@ background-color: #333;
     margin:16px ;
     background-color: #fff;
     border: 1px solid #ccc; 
+}
+.contents-item-title{
+    padding: 8px 16px;
+    margin: 0;
+    background-color: #333;
+    color:#fff;
+}
+.contents-item-text{
+    margin: 16px;
+}
+.copyright{
+    padding: 16px;
+    margin: 0;
+    background-color: #333;
+    color: #ffff;
+    text-align: center;
 }
