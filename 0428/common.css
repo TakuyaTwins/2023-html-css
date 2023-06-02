@@ -37,3 +37,29 @@ background-color: #333;
     color: #ffff;
     text-align: center;
 }
+.menu{
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid#ccc;
+    height: 200px;
+    background-color: #eee;
+
+}
+.menu-item{
+    list-style-type: none;
+}
+
+.menu-item a{
+    display: block;
+    padding: 16px;
+    background-color: #77ff;
+    color: #fff;
+    border: 3px solid #ccc;
+    text-decoration: none;
+}
+
+.menu-item a:hover{
+    background-color: #666;
+}
