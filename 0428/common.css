@@ -63,3 +63,64 @@ background-color: #333;
 .menu-item a:hover{
     background-color: #666;
 }
+.box {
+    padding: 20px;
+    border: 50px solid red;
+    width: 200px;
+    height: 200px;
+}
+.border-box {
+    box-sizing: border-box;
+}
+.entries{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.entry {
+    margin: 8px;
+    width: calc(25% - 16px);
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+
+.entry-img {
+    margin: 0;
+}
+
+.entry-img img {
+    width: 100%;
+    display: block;
+}
+.fixed-button{
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+relative-button{
+    background-color: pink;
+    color: #fff;
+    padding: 16px;
+    margin: 0;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+.absolute-button{
+    background-color: red;
+    color: #fff;
+    padding: 16px;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.absolute-box{
+    border: 3px solid red;
+    height: 200px;
+    position: relative;
+}
