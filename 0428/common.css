@@ -124,3 +124,34 @@ relative-button{
     height: 200px;
     position: relative;
 }
+
+.center-container{
+    background-color: red;
+    height: 400px;
+    position: relative;
+}
+
+.inline-block-list{
+    text-align: center;
+}
+
+.inline-block-list-item{
+    background-color: #333;
+    color: #fff;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+.center-box{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border: 3px solid blue;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
